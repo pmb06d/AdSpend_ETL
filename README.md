@@ -10,3 +10,13 @@ We choose to use a file system and not a database, initially, because it will ma
 ## Database Design
 We have an ERD for a relational Ad Spend database that we chose to forgo in favor of our file system but it’s a good way of visualizing the relationships between all the different tables.
 ![Alt Text](https://github.com/pmb06d/AdSpend_ETL/blob/master/Ad_Spend_ERD.jpg)
+
+# Features
+Running the program will:
+  * Split the full month file into separate csv files by region for storage in our file server
+  * Read each of the files that normalize channels, sectors and advertisers and attempt to match to the new input using fuzzy logic. If there is no match the program will ask for user input on a case-by-case basis
+  * Any new information obtained from the user will be appended to each of the pertinent files and the full month is appended to the de-normalized table.
+  * A BI tool is used to combine and dashboard the information.
+
+# How to use
+All the user needs to do is download the CSV from the dashboard and run the program
