@@ -19,4 +19,4 @@ Running the program will:
   * A BI tool is used to combine and dashboard the information.
 
 # How to use
-All the user needs to do is download the CSV from the dashboard and run the program
+All the user needs to do is download the CSV from the vendor dashboard and run the program
