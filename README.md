@@ -9,3 +9,4 @@ We choose to use a file system and not a database, initially, because it will ma
 
 ## Database Design
 We have an ERD for a relational Ad Spend database that we chose to forgo in favor of our file system but it’s a good way of visualizing the relationships between all the different tables.
+![Alt Text](https://github.com/pmb06d/AdSpend_ETL/blob/master/Ad_Spend_ERD.jpg)
